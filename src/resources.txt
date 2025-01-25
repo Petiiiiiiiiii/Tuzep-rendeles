@@ -1,0 +1,20 @@
+Cement;kg;3000
+Sóder;m3;2500
+Homok;m3;1990
+Tégla;darab;45
+Betonvas;kg;500
+Zsaluanyag;darab;1200
+Tetőcserép;darab;350
+Ytong;darab;950
+Kőzetgyapot;m2;1500
+Polisztirol;m2;1200
+Ablakkeret;darab;45000
+Ajtó;darab;55000
+Vakolat;kg;200
+Festék;liter;3000
+Csempe;m2;2500
+Faanyag;m3;85000
+PVC cső;m;400
+Kapcsoló;darab;1500
+Murva;m3;2200
+Ragasztó;tubus;750

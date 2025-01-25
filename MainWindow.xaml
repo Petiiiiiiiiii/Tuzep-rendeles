@@ -1,0 +1,19 @@
+﻿<Window x:Class="Unalom.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Unalom"
+        mc:Ignorable="d"
+        Title="Berendeles" Height="450" Width="800">
+    <Grid>
+        <ListBox x:Name="resourceLBX" Margin="20,23,522,34" SelectionChanged="resourceLBX_SelectionChanged"/>
+        <ListBox x:Name="basketLBX" Margin="561,82,21,92" IsEnabled="False"/>
+        <TextBox x:Name="unitTXB" HorizontalAlignment="Center" TextAlignment="Center" Margin="0,158,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="toBasketBTN" Content="Kosárba" HorizontalAlignment="Center" VerticalAlignment="Center" Width="99" Click="toBasketBTN_Click"/>
+        <Label x:Name="pickedResourceLBL" Content="Cement (kg)" HorizontalAlignment="Center" Margin="0,122,0,0" VerticalAlignment="Top"/>
+        <Label Content="Kosár" HorizontalAlignment="Left" Margin="651,46,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="orderBTN" Content="Berendelés" HorizontalAlignment="Left" VerticalAlignment="Top" Width="99" Margin="621,363,0,0" Click="orderBTN_Click"/>
+
+    </Grid>
+</Window>
